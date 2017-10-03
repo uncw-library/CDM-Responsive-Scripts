@@ -273,7 +273,9 @@ ul#mega .sub ul.menu-feature a:hover {
 	position: relative !important;
 }
 
-
+.Header-header { 
+	height: 96px;
+}
 
 
 
