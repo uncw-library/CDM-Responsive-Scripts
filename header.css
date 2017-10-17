@@ -275,6 +275,9 @@ ul#mega .sub ul.menu-feature a:hover {
 
 .Header-header { 
 	height: 96px;
+	background-image: url('/ui/custom/default/collection/default/images/libraryheader.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 
