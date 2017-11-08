@@ -47,14 +47,126 @@ font-size: 12px;
 font-style: normal;
 font-weight: bold;}
 #customhome p {margin:1.5em;font-size:14px;}
-        
+
+ul, ul a {
+  font-size: 13px !important;
+}
+
+.box h2 {
+  font-size: 16px !important;
+}
+
+.carousel img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+  object-fit: contain;
+}
 </style>
         
-        </head><body><div id="customhome"><p>Our Digital Collections
+        </head><body><div id="customhome">
+
+<div class="row" style="border-bottom: solid 1px #ccc;border-radius:5px; padding:10px;">
+<div class="col-xs-12 col-md-3"><p>Our Digital Collections
 include a wide variety of digitized art and documents. Much of it can 
 be searched using the search box above or browsed by clicking on the 
 links below. Collections with this icon: <img class="ext" src="/ui/custom/default/collection/default/images/extlink.gif" alt="External Website" height="14" width="12"> will take you to another website. </p>
-        <div id="right" class="col-xs-12 col-md-6">
+</div>
+
+<div class="col-xs-0 col-md-0"></div>
+
+<div class="col-xs-12 col-md-6" style="text-align:center;">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="max-width: 600px;max-height:400px;margin:auto;">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" style="max-width:600px;" role="listbox">
+          <div class="carousel-item active" style="max-width:600px;max-height:400px;">
+            <img class="d-block img" src="https://library.uncw.edu/ContentDM/images/image1.png" style="width:100%;height:100%;" alt="First slide">
+
+            <div class="carousel-caption row" style="bottom:35px;">    
+                <div class="col-xs-5 carousel-book" style="text-align:left;background-color:rgba(0, 0, 0, .6);">
+                    
+                    <a href="#" onclick="window.parent.location = ''">
+                        <div class="overlay">
+                            <div class="text">
+                                <span style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+              </div>
+
+          </div>
+          <div class="carousel-item" style="max-width:600px;max-height:400px;">
+            <img class="d-block img" src="https://library.uncw.edu/ContentDM/images/image2.png" style="width:100%;height:100%;" alt="Second slide">
+            <div class="carousel-caption row" style="bottom:35px;">    
+                <div class="col-xs-5 carousel-book" style="text-align:left;background-color:rgba(0, 0, 0, .6);">
+                    
+                    <a href="#" onclick="window.parent.location = ''">
+                        <div class="overlay">
+                            <div class="text">
+                                <span style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item" style="max-width:600px;max-height:400px;">
+            <img class="d-block img" src="https://library.uncw.edu/ContentDM/images/image3.png" style="width:100%;height:100%;" alt="Third slide">
+            <div class="carousel-caption row" style="bottom:35px;">    
+                <div class="col-xs-5 carousel-book" style="text-align:left;background-color:rgba(0, 0, 0, .6);">
+                    
+                    <a href="#" onclick="window.parent.location = ''">
+                        <div class="overlay">
+                            <div class="text">
+                                <span style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+              </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+</div>
+
+<script>
+    // Load this when the DOM is ready
+    $(document).ready(function(){
+        $('.carousel').carousel({
+            interval: false
+        })
+    });
+    
+</script>
+
+<div class="col-xs-0 col-md-0"></div>
+
+<div class="col-xs-12 col-md-3" style="margin-top:20px;">
+    <h2>Follow us on</h2> <br>
+    <div class="row" style="text-align:center;">
+      <div class="col-xs-4"><span style="font-size:40px;"><i class="fa fa-3 fa-facebook-square" aria-hidden="true"></i></span></div>
+      <div class="col-xs-4"><span style="font-size:40px;"><i class="fa fa-3 fa-twitter-square" aria-hidden="true"></i></span></div>
+      <div class="col-xs-4"><span style="font-size:40px;"><i class="fa fa-3 fa-rss-square" aria-hidden="true"></i></span></div>
+    </div>
+</div>
+
+</div> <!-- top section -->
+
+<div id="" class="col-xs-12 col-md-4">
 <div class="box">
 <h2>Other</h2>
 <ul> <li> <a href="http://library.uncw.edu/web/collections/1898Foundation/"><img src="/ui/custom/default/collection/default/images/1898.jpg" alt="1898 Foundation" height="96" width="100">1898 Foundation  <img class="ext" src="/ui/custom/default/collection/default/images/extlink.gif" alt="External Website" height="14" width="12"></a> <br>
@@ -140,7 +252,7 @@ throughout the UNCW Watson School Education Building.</li>
 </ul>
 </div>
         </div>
-<div id="left" class="col-xs-12 col-md-5"><div class="box"><h2>UNCW Archives</h2><ul>
+<div id="" class="col-xs-12 col-md-4"><div class="box"><h2>UNCW Archives</h2><ul>
 
 <li><a href="http://library.uncw.edu/web/collections/archives/images.html"><img src="/ui/custom/default/collection/default/images/news-big.jpg" alt="Images UNCW" height="96" width="100">Images of UNCW <img class="ext" src="/ui/custom/default/collection/default/images/extlink.gif" alt="External Website" height="14" width="12"></a><br>
 Prints, slides, and negatives of UNCW from 1948 to the present day.</li>
@@ -220,6 +332,93 @@ War.</li>
 
 </ul>
 </div></div>
+
+<div id="" class="col-xs-12 col-md-4">
+  <div class="box">
+  <h2>Other</h2>
+  <ul> <li> <a href="http://library.uncw.edu/web/collections/1898Foundation/"><img src="/ui/custom/default/collection/default/images/1898.jpg" alt="1898 Foundation" height="96" width="100">1898 Foundation  <img class="ext" src="/ui/custom/default/collection/default/images/extlink.gif" alt="External Website" height="14" width="12"></a> <br>
+  Archived website of the 1898 Foundation, formed to commemorate the 
+  events of 1898 in its centennial year, and make their significance 
+  known, with the overall goal of improving racial relations in the 
+  community.</li>
+  <li><a href="http://library.uncw.edu/surf"><img src="/ui/custom/default/collection/default/images/surf.exhibit.image.jpg" alt="Surfing" height="100" width="100">Cape Fear Surfing Archive <img class="ext" src="/ui/custom/default/collection/default/images/extlink.gif" alt="External Website" height="14" width="12"></a><br>
+  Focusing  on preserving the heritage of surfing along North Carolina's 
+  southeastern coast. Some materials reflect surfing history at the 
+  regional, national, or international level.</li>
+  
+  <li><a href="http://dl.uncw.edu/"><img src="/ui/custom/default/collection/default/images/bio.jpg" alt="ilumina" height="96" width="100">Ilumina  <img class="ext" src="/ui/custom/default/collection/default/images/extlink.gif" alt="External Website" height="14" width="12"></a><br>A
+  digital library of sharable undergraduate teaching materials for 
+  chemistry, biology, physics, mathematics, and computer science. 
+  </li>
+  
+  
+  <li><a href="http://libres.uncg.edu/ir/uncw/"><img src="/ui/custom/default/collection/default/images/uncwir.jpg" alt="" height="96" width="100">SeahawkDocks  <img class="ext" src="/ui/custom/default/collection/default/images/extlink.gif" alt="External Website" height="14" width="12"></a><br>
+  Contains digital, online copies of  UNCW faculty articles, white papers,
+  and other scholarly works, in addition to student theses and 
+  dissertations.</li>
+  </ul>
+  </div>
+  <div class="box">
+  
+  <h2>Visual Art Community </h2>
+  <ul>
+  <li><a href="http://library.uncw.edu/regional_art/">The Visual Art Community of Wilmington &amp; Southeastern NC: A Digital Exhibit  <img class="ext" src="/ui/custom/default/collection/default/images/extlink.gif" alt="External Website" height="14" width="12"></a><br>
+  The following collections are all part of of this larger online exhibit about art in the region.</li>
+  <ul><li><a href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/art-rl">Art in Randall Library</a>
+  Nearly 500 pieces of art found in University of North Carolina 
+  Wilmington's Randall Library. Most of the artwork is from regionally 
+  located artists.</li>
+    <li><a href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/public">Art in Public Spaces</a> A sampling of art found in public spaces around the Wilmington, NC area.</li>
+    <li> <a href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/cam">Cameron Art Museum</a>
+  The Cameron Art Museum of Wilmington, NC presents changing exhibitions 
+  comprised of fine arts, crafts and design. This digital exhibit features
+  a portion of the museum's permanent collection. </li>
+    <li><a href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/camdoc">Cameron Art Museum Documents</a> Fourteen exhibition catalog spanning from 1973 - 2007 from the Cameron Art Museum. </li>
+    <li><a href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/camnews">Cameron Art Museum Newsletters</a> Newsletters from the Cameron Art Museum (previously St. John's Museum of Art) going back to 1963. </li>
+    <li><a href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/deptart">Dept. of Art and Art History Prints</a>
+  Student work from UNCW's advanced printmaking class. Don Furst, 
+  Professor of Art in the Department of Art and Art History at UNCW uses 
+  these as teaching tools for future generations of artists. </li>
+    <li><a href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/berk">Jack Berkman Collection</a>
+  A teacher, artist and leading member of the North Carolina art 
+  community for more than forty years, this sample of Berkman's work was 
+  donated by his estate. </li>
+    <li><a href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/mowc">Museum of World Cultures</a>
+  The UNCW Museum of World Cultures collects and makes available for 
+  teaching purposes visual art and artifacts from around the world.</li>
+    <li><a href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/ons">Jacksonville-Onslow Council for the Arts</a>
+  Over the years, through donations from members and the community, the 
+  Jacksonsville-Onlsow Council for the Arts has gathered a permanent 
+  collection of regional art that can be viewed in our digital collection.
+      
+      </li>
+   <li>   <a href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/orton">Orton Plantation Art</a>
+  A collection of prints from Europe that were purchased in the early 
+  1900's. They were purchased for the Sprunt family and held at the Orton 
+  Plantation until given recently to UNCW. </li>
+   
+   <li><a href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/pad">Regional Art Documents</a>
+  Contains the only full-length book written about the history of Art in 
+  New Hanover County as well as a recent history written for our regional 
+  Visual Art online exhibit and newsletters from two different Art 
+  Councils.</li>
+    <li><a href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/rb">Dr. Ralph Brauer Collection</a>
+  A portion of the personal art collection donated by Dr. Ralph Brauer. 
+  Dr. Brauer was widely traveled and was the founder of the UNCW Center of
+  Marine Science.</li>
+     <li><a href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/watson">Watson School of Education Art Collection</a>
+  This is a significant permanent collection of many diverse pieces of 
+  visual art including oil paintings, watercolor paintings, woodcuts, 
+  pencil sketches, ceramics and metal sculpture. These works are displayed
+  throughout the UNCW Watson School Education Building.</li>
+    </ul>
+  
+  
+  
+  
+  </ul>
+  </div>
+          </div>
 
         </div>
 
