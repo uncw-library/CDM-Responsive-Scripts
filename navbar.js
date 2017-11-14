@@ -10264,7 +10264,7 @@ $(document).ready(function() {
 	'  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">'+
 	'    <span class="navbar-toggler-icon"></span>'+
 	'  </button>'+
-	'  <a class="navbar-brand" href="/cdm/">Digital Collections Home</a>'+
+	'  <a class="navbar-brand" style="padding-top:9px;" href="/cdm/">Digital Collections Home</a>'+
 	''+
 	'  <div class="collapse navbar-collapse" id="navbarSupportedContent">'+
 	'    <ul class="navbar-nav mr-auto">'+
@@ -10319,7 +10319,7 @@ $(document).ready(function() {
 	'        <a class="nav-link" href="http://library.uncw.edu">Randall Library</a>'+
 	'      </li>'+
 	'      <li class="nav-item" style="border-left: 1px solid #ccc">'+
-	'        <a class="nav-link" href="http://library.uncw.edu/archives_special">Archives and Special Collections</a>'+
+	'        <a class="nav-link" href="http://library.uncw.edu/archives_special">University Archives and Special Collections</a>'+
 	'      </li>'+
 	'    </ul>'+
 	'  </div>'+
