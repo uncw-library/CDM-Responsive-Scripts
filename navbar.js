@@ -10274,6 +10274,35 @@ $(document).ready(function() {
 	'        </a>'+
 	'        <div class="dropdown-menu" style="width:max-content;" aria-labelledby="navbarDropdownMenuLink">'+
 	'          <div class="col-xs-12 col-md-6">'+
+	
+	'          <h2 style="text-align:left;margin-left: 24px;margin-top:15px;">Special Collections</h2>'+
+	'          <a class="dropdown-item" href="http://library.uncw.edu/chaplains/" title="">Centuries of Service: Military Chaplains<img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	'          <a class="dropdown-item" href="http://library.uncw.edu/web/collections/Schenck/schenckintro.html" title="">Diary of Nicholas W. Schenck <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	'          <a class="dropdown-item" href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/rotary" title="">Herman Blizzard Rotary Archive </a>'+
+	'          <a class="dropdown-item" href="http://library.uncw.edu/web/montford" title="">Montford Point Marines <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	'          <a class="dropdown-item" href="http://library.uncw.edu/museum" title="">Museum of World Cultures <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	'          <a class="dropdown-item" href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/oralhistory" title="">Oral Histories</a>'+ 
+	'          <a class="dropdown-item" href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/nclatino" title="">Somos NC: Voices from North Carolinas Latino Community </a>'+
+	'          <a class="dropdown-item" href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/marks" title="">Stuart Marks Collection<img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	'          <a class="dropdown-item" href="http://library.uncw.edu/capefearww2/" title="">World War II: Through the Eyes of the Cape Fear <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	
+	'          <h2 style="text-align:left;margin-left: 24px;margin-top:15px;">UNCW Archives Collections</h2>'+
+	'          <a class="dropdown-item" href="http://library.uncw.edu/web/collections/archives/images.html" title="">Images of UNCW <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	'          <a class="dropdown-item" href="http://www.archive.org/search.php?query=%28%22university%20of%20north%20carolina%20wilmington%22%29%20AND%20mediatype%3Atexts&amp;sort=-date" title="">Internet Archive UNCW Collection <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	'          <a class="dropdown-item" href="/cdm/landingpage/collection/athletics" title="">UNCW Athletics Awards </a>'+
+	'          <a class="dropdown-item" href="/cdm/landingpage/collection/bot" title="">UNCW Board of Trustees </a>'+
+	'          <a class="dropdown-item" href="http://library.uncw.edu/web/collections/archives/landmarks.html" title="">UNCW Buildings and Landmarks: a History <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	'          <a class="dropdown-item" href="/cdm/landingpage/collection/honors" title="">UNCW Honors Project Papers </a>'+
+	'          </div>'+
+
+	'          <div class="col-xs-12 col-md-6">'+
+
+	'          <h2 style="text-align:left;margin-left: 24px;margin-top:15px;">Other</h2>'+
+	'          <a class="dropdown-item" href="http://dl.uncw.edu/" title="">Ilumina <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	'          <a class="dropdown-item" href="http://library.uncw.edu/surfs" title="">Cape Fear Surfing Archive <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	'          <a class="dropdown-item" href="http://libres.uncg.edu/ir/uncw/" title="">SeahawkDocks <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	
+
 	'          <h2 style="text-align:left;margin-left: 24px;margin-top:15px;">Visual Art Community</h2>'+
 	'          <a class="dropdown-item" href="http://library.uncw.edu/regional_art/">The Visual Art Community of Wilmington &amp; Southeastern NC: A Digital Exhibit  <img class="ext" src="/ui/custom/default/collection/default/images/extlink.gif" alt="External Website" height="14" width="12"></a>'+
 	'          <a class="dropdown-item" href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/art-rl">Art in Randall Library</a>'+
@@ -10289,29 +10318,8 @@ $(document).ready(function() {
 	'          <a class="dropdown-item" href="/cdm/landingpage/collection/rb" title="">Dr. Ralph Brauer Collection</a>'+
 	'          <a class="dropdown-item" href="/cdm/landingpage/collection/pad" title="">Regional Art Documents</a>'+
 	'          <a class="dropdown-item" href="/cdm/landingpage/collection/watson" title="">Watson College of Education Art Collection</a>'+
-	'          <h2 style="text-align:left;margin-left: 24px;margin-top:15px;">UNCW Archives Collections</h2>'+
-	'          <a class="dropdown-item" href="http://library.uncw.edu/web/collections/archives/images.html" title="">Images of UNCW <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
-	'          <a class="dropdown-item" href="http://www.archive.org/search.php?query=%28%22university%20of%20north%20carolina%20wilmington%22%29%20AND%20mediatype%3Atexts&amp;sort=-date" title="">Internet Archive UNCW Collection <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
-	'          <a class="dropdown-item" href="/cdm/landingpage/collection/athletics" title="">UNCW Athletics Awards </a>'+
-	'          <a class="dropdown-item" href="/cdm/landingpage/collection/bot" title="">UNCW Board of Trustees </a>'+
-	'          <a class="dropdown-item" href="http://library.uncw.edu/web/collections/archives/landmarks.html" title="">UNCW Buildings and Landmarks: a History <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
-	'          <a class="dropdown-item" href="/cdm/landingpage/collection/honors" title="">UNCW Honors Project Papers </a>'+
-	'          </div>'+
-	'          <div class="col-xs-12 col-md-6">'+
-	'          <h2 style="text-align:left;margin-left: 24px;margin-top:15px;">Other</h2>'+
-	'          <a class="dropdown-item" href="http://dl.uncw.edu/" title="">Ilumina <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
-	'          <a class="dropdown-item" href="http://library.uncw.edu/surfs" title="">Cape Fear Surfing Archive <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
-	'          <a class="dropdown-item" href="http://libres.uncg.edu/ir/uncw/" title="">SeahawkDocks <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
-	'          <h2 style="text-align:left;margin-left: 24px;margin-top:15px;">Special Collections</h2>'+
-	'          <a class="dropdown-item" href="http://library.uncw.edu/chaplains/" title="">Centuries of Service: Military Chaplains<img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
-	'          <a class="dropdown-item" href="http://library.uncw.edu/web/collections/Schenck/schenckintro.html" title="">Diary of Nicholas W. Schenck <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
-	'          <a class="dropdown-item" href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/rotary" title="">Herman Blizzard Rotary Archive </a>'+
-	'          <a class="dropdown-item" href="http://library.uncw.edu/web/montford" title="">Montford Point Marines <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
-	'          <a class="dropdown-item" href="http://library.uncw.edu/museum" title="">Museum of World Cultures <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
-	'          <a class="dropdown-item" href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/oralhistory" title="">Oral Histories</a>'+ 
-	'          <a class="dropdown-item" href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/nclatino" title="">Somos NC: Voices from North Carolinas Latino Community </a>'+
-	'          <a class="dropdown-item" href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/marks" title="">Stuart Marks Collection<img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
-	'          <a class="dropdown-item" href="http://library.uncw.edu/capefearww2/" title="">World War II: Through the Eyes of the Cape Fear <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+
+
 	'          </div>'+
 	'        </div>'+
 	'      </li>'+
