@@ -10292,15 +10292,20 @@ $(document).ready(function() {
 	'          <a class="dropdown-item" href="/cdm/landingpage/collection/athletics" title="">UNCW Athletics Awards </a>'+
 	'          <a class="dropdown-item" href="/cdm/landingpage/collection/bot" title="">UNCW Board of Trustees </a>'+
 	'          <a class="dropdown-item" href="http://library.uncw.edu/web/collections/archives/landmarks.html" title="">UNCW Buildings and Landmarks: a History <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+
+	'          <h2 style="text-align:left;margin-left: 24px;margin-top:15px;">Research and Scholarship</h2>'+
+	'          <a class="dropdown-item" href="http://dl.uncw.edu/" title="">Ilumina <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	'          <a class="dropdown-item" href="http://libres.uncg.edu/ir/uncw/" title="">SeahawkDocks <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	'          <a class="dropdown-item" href="https://dataverse.unc.edu/dataverse/UNCW" title="">UNCW Dataverse <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
 	'          <a class="dropdown-item" href="/cdm/landingpage/collection/honors" title="">UNCW Honors Project Papers </a>'+
 	'          </div>'+
 
 	'          <div class="col-xs-12 col-md-6">'+
 
-	'          <h2 style="text-align:left;margin-left: 24px;margin-top:15px;">Other</h2>'+
-	'          <a class="dropdown-item" href="http://dl.uncw.edu/" title="">Ilumina <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	'          <h2 style="text-align:left;margin-left: 24px;margin-top:15px;">Collections Around the Region</h2>'+
+	'          <a class="dropdown-item" href="http://library.uncw.edu/web/collections/1898Foundation/" title="">1898 Foundation <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
 	'          <a class="dropdown-item" href="http://library.uncw.edu/surfs" title="">Cape Fear Surfing Archive <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
-	'          <a class="dropdown-item" href="http://libres.uncg.edu/ir/uncw/" title="">SeahawkDocks <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+       
 	
 
 	'          <h2 style="text-align:left;margin-left: 24px;margin-top:15px;">Visual Art Community</h2>'+
