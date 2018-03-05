@@ -9,10 +9,14 @@ title: "CONTENTdm Home file"
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"><link href="/ui/custom/default/collection/default/images/main.css" type="text/css" rel="stylesheet">
 <style type="text/css" media="screen">
 
+@media screen and (max-width: 767px) {
+    .Header-header {
+        height: 120px !important;
+    }
+}
+
 .SimpleSearch-searchBox {
     background-color: #008183;
-    margin-top: 26px;
-    padding-top:2px;
     padding-bottom:6px;
     z-index: 2;
 }
@@ -108,11 +112,10 @@ ul, ul a {
 <div class="col-xs-0 col-md-0"></div>
 
 <div class="col-xs-12 col-md-6" style="text-align:center;">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="max-width: 450px;max-height:265px;margin:auto;">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="max-width: 460px;max-height:265px;margin:auto;">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner" style="max-width:600px;" role="listbox">
           <div class="carousel-item active" style="max-width:600px;max-height:400px;">
@@ -121,7 +124,7 @@ ul, ul a {
           <div class="carousel-item" style="max-width:600px;max-height:400px;">
             <img onclick="window.parent.location = 'https://cdm17190.contentdm.oclc.org/digital/collection/p17190coll1'" class="d-block img" src="https://library.uncw.edu/ContentDM/images/seahawk-Newspaper.jpg" style="width:100%;height:100%;cursor:pointer;" alt="Second slide">
           </div>
-          <div class="carousel-item" style="max-width:600px;max-height:400px;">
+          <!-- <div class="carousel-item" style="max-width:600px;max-height:400px;">
             <img class="d-block img" src="https://library.uncw.edu/ContentDM/images/image3.png" style="width:100%;height:100%;" alt="Third slide">
             <div class="carousel-caption row" style="bottom:35px;">    
                 <div class="col-xs-5 carousel-book" style="text-align:left;background-color:rgba(0, 0, 0, .6);">
@@ -135,7 +138,7 @@ ul, ul a {
                     </a>
                 </div>
               </div>
-          </div>
+          </div> -->
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -217,12 +220,11 @@ ul, ul a {
         </div>
 <div id="" class="col-xs-12 col-md-4"><div class="box"><h2 class="section-heading">University Archives</h2><ul>
 
-<li><a href="https://cdm17190.contentdm.oclc.org/digital/collection/p17190coll1"> <img src="https://library.uncw.edu/ContentDM/images/icons/seahawk-news-thumb2.jpg" alt="Seahawk Student Newspaper" height="150" width="150">The Seahawk, UNCW Student Newspaper</a><br>
-    Includes issues from 1948 through 1975. More issues will be added in future project iterations. </li>
-
 <li><a href="http://www.archive.org/search.php?query=%28%22university%20of%20north%20carolina%20wilmington%22%29%20AND%20mediatype%3Atexts&amp;sort=-date"><img src="https://library.uncw.edu/ContentDM/images/icons/internet-archive.jpg" alt="Internet Archive" height="150" width="150">Internet Archive UNCW Collection <img class="ext" src="/ui/custom/default/collection/default/images/extlink.gif" alt="External Website" height="14" width="12"></a><br>
     UNCW publications, including the Fledgling yearbook, UNCW Magazine for alumni and friends, Campus Communiqu&eacute; faculty and staff bulletin, the Student Handbook and Code of Student Life, and course catalogs. Coverage Dates: 1947-Present.</li>
 
+<li><a href="https://cdm17190.contentdm.oclc.org/digital/collection/p17190coll1"> <img src="https://library.uncw.edu/ContentDM/images/icons/seahawk-th-2.jpg" alt="Seahawk Student Newspaper" height="150" width="150">The Seahawk, UNCW Student Newspaper</a><br>
+    Includes issues from 1948 through 1975. More issues will be added in future project iterations. </li>
 
 <li><a href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/athletics"> <img src="https://library.uncw.edu/ContentDM/images/icons/uncw-athletics-awards.jpg" alt="Athletics Awards" height="150" width="150">UNCW Athletics Awards</a><br>
 Trophies, plaques, certificates and other memorabilia from UNCW athletics programs. </li>
