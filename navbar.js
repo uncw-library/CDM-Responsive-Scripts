@@ -10272,7 +10272,7 @@ $(document).ready(function() {
 	'        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">'+
 	'          Collections'+
 	'        </a>'+
-	'        <div class="dropdown-menu" style="width:max-content;" aria-labelledby="navbarDropdownMenuLink">'+
+	'        <div class="dropdown-menu" style="width:max-content;min-width:72rem;" aria-labelledby="navbarDropdownMenuLink">'+
 	'          <div class="col-xs-12 col-md-6">'+
 	
 	'          <h2 style="text-align:left;margin-left: 24px;margin-top:15px;">Special Collections</h2>'+
@@ -10344,9 +10344,10 @@ $(document).ready(function() {
 	'    }'+
 	'}'+ 
 	'.SimpleSearch-searchBox {'+
-	'    background-color: #008183;'+
+	'    background-color: #008183 !important;'+
 	'    padding-bottom:6px;'+
 	'    z-index: 2;'+
+	'    margin-top: -20px;'+
 	'}'+
 	'.box {'+
 	'    margin-top: 20px;'+

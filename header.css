@@ -1,5 +1,9 @@
 .Header__logoNameContainer___wRvYx {
-    background-color: #008183;
+    background-color: #008183 !important;
+}
+
+.navbar-default {
+	background-color: #008183 !important;
 }
 
 .CoreLayout__mainWrapperContainer___32Uu7 {
@@ -274,7 +278,7 @@ ul#mega .sub ul.menu-feature a:hover {
 }
 
 .Header-header { 
-	height: 96px;
+	height: 96px !important;
 	background-image: url('/ui/custom/default/collection/default/images/libraryheader.jpg');
 	background-repeat: no-repeat;
 	background-size: contain;
