@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+#customhome ul {
+	list-style-type:none;}
+
+#customhome img {
+		float:left;
+		margin-right:5px;}
+
+#customhome li {
+			clear:both;
+			}

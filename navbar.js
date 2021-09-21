@@ -542,7 +542,7 @@
 	 *
 	 * Copyright jQuery Foundation and other contributors
 	 * Released under the MIT license
-	 * http://jquery.org/license
+	 * https://jquery.org/license
 	 *
 	 * Date: 2016-08-08
 	 */
@@ -609,13 +609,13 @@
 	
 		// Regular expressions
 	
-		// http://www.w3.org/TR/css3-selectors/#whitespace
+		// https://www.w3.org/TR/css3-selectors/#whitespace
 		whitespace = "[\\x20\\t\\r\\n\\f]",
 	
-		// http://www.w3.org/TR/CSS21/syndata.html#value-def-identifier
+		// https://www.w3.org/TR/CSS21/syndata.html#value-def-identifier
 		identifier = "(?:\\\\.|[\\w-]|[^\0-\\xa0])+",
 	
-		// Attribute selectors: http://www.w3.org/TR/selectors/#attribute-selectors
+		// Attribute selectors: https://www.w3.org/TR/selectors/#attribute-selectors
 		attributes = "\\[" + whitespace + "*(" + identifier + ")(?:" + whitespace +
 			// Operator (capture 2)
 			"*([*^$|!~]?=)" + whitespace +
@@ -672,7 +672,7 @@
 		rsibling = /[+~]/,
 	
 		// CSS escapes
-		// http://www.w3.org/TR/CSS21/syndata.html#escaped-characters
+		// https://www.w3.org/TR/CSS21/syndata.html#escaped-characters
 		runescape = new RegExp( "\\\\([\\da-f]{1,6}" + whitespace + "?|(" + whitespace + ")|.)", "ig" ),
 		funescape = function( _, escaped, escapedWhitespace ) {
 			var high = "0x" + escaped - 0x10000;
@@ -1308,7 +1308,7 @@
 				}
 	
 				// Webkit/Opera - :checked should return selected option elements
-				// http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#checked
+				// https://www.w3.org/TR/2011/REC-css3-selectors-20110929/#checked
 				// IE8 throws error here and will not see later tests
 				if ( !el.querySelectorAll(":checked").length ) {
 					rbuggyQSA.push(":checked");
@@ -1919,7 +1919,7 @@
 	
 			"PSEUDO": function( pseudo, argument ) {
 				// pseudo-class names are case-insensitive
-				// http://www.w3.org/TR/selectors/#pseudo-classes
+				// https://www.w3.org/TR/selectors/#pseudo-classes
 				// Prioritize by case sensitivity in case custom pseudos are added with uppercase letters
 				// Remember that setFilters inherits from pseudos
 				var args,
@@ -2006,7 +2006,7 @@
 			// or beginning with the identifier C immediately followed by "-".
 			// The matching of C against the element's language value is performed case-insensitively.
 			// The identifier C does not have to be a valid language name."
-			// http://www.w3.org/TR/selectors/#lang-pseudo
+			// https://www.w3.org/TR/selectors/#lang-pseudo
 			"lang": markFunction( function( lang ) {
 				// lang value must be a valid identifier
 				if ( !ridentifier.test(lang || "") ) {
@@ -2048,7 +2048,7 @@
 	
 			"checked": function( elem ) {
 				// In CSS3, :checked should return both checked and selected elements
-				// http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#checked
+				// https://www.w3.org/TR/2011/REC-css3-selectors-20110929/#checked
 				var nodeName = elem.nodeName.toLowerCase();
 				return (nodeName === "input" && !!elem.checked) || (nodeName === "option" && !!elem.selected);
 			},
@@ -2065,7 +2065,7 @@
 	
 			// Contents
 			"empty": function( elem ) {
-				// http://www.w3.org/TR/selectors/#empty-pseudo
+				// https://www.w3.org/TR/selectors/#empty-pseudo
 				// :empty is negated by element (1) or content nodes (text: 3; cdata: 4; entity ref: 5),
 				//   but not by others (comment: 8; processing instruction: 7; etc.)
 				// nodeType < 6 works because attributes (2) do not appear as children
@@ -7442,7 +7442,7 @@
 	
 	
 	// Based off of the plugin by Clint Helfers, with permission.
-	// https://web.archive.org/web/20100324014747/http://blindsignals.com/index.php/2009/07/jquery-delay/
+	// https://web.archive.org/web/20100324014747/https://blindsignals.com/index.php/2009/07/jquery-delay/
 	jQuery.fn.delay = function( time, type ) {
 		time = jQuery.fx ? jQuery.fx.speeds[ time ] || time : time;
 		type = type || "fx";
@@ -7667,7 +7667,7 @@
 					// Support: IE <=9 - 11 only
 					// elem.tabIndex doesn't always return the
 					// correct value when it hasn't been explicitly set
-					// https://web.archive.org/web/20141116233347/http://fluidproject.org/blog/2008/01/09/getting-setting-and-removing-tabindex-values-with-javascript/
+					// https://web.archive.org/web/20141116233347/https://fluidproject.org/blog/2008/01/09/getting-setting-and-removing-tabindex-values-with-javascript/
 					// Use proper attribute retrieval(#12072)
 					var tabindex = jQuery.find.attr( elem, "tabindex" );
 	
@@ -8309,7 +8309,7 @@
 	//
 	// Support: Chrome <=48 - 49, Safari <=9.0 - 9.1
 	// focus(in | out) events fire after focus & blur events,
-	// which is spec violation - http://www.w3.org/TR/DOM-Level-3-Events/#events-focusevent-event-order
+	// which is spec violation - https://www.w3.org/TR/DOM-Level-3-Events/#events-focusevent-event-order
 	// Related ticket - https://bugs.chromium.org/p/chromium/issues/detail?id=449857
 	if ( !support.focusin ) {
 		jQuery.each( { focus: "focusin", blur: "focusout" }, function( orig, fix ) {
@@ -9018,7 +9018,7 @@
 	
 				// Support: IE <=8 - 11, Edge 12 - 13
 				// IE throws exception on accessing the href property if url is malformed,
-				// e.g. http://example.com:80x/
+				// e.g. https://example.com:80x/
 				try {
 					urlAnchor.href = s.url;
 	
@@ -9424,7 +9424,7 @@
 	
 	jQuery.ajaxSettings.xhr = function() {
 		try {
-			return new window.XMLHttpRequest();
+			return new window.XMLHttpsRequest();
 		} catch ( e ) {}
 	};
 	
@@ -9445,7 +9445,7 @@
 	jQuery.ajaxTransport( function( options ) {
 		var callback, errorCallback;
 	
-		// Cross domain only allowed if supported through XMLHttpRequest
+		// Cross domain only allowed if supported through XMLHttpsRequest
 		if ( support.cors || xhrSupported && !options.crossDomain ) {
 			return {
 				send: function( headers, complete ) {
@@ -9478,7 +9478,7 @@
 					// (it can always be set on a per-request basis or even using ajaxSetup)
 					// For same-domain requests, won't change header if already provided.
 					if ( !options.crossDomain && !headers[ "X-Requested-With" ] ) {
-						headers[ "X-Requested-With" ] = "XMLHttpRequest";
+						headers[ "X-Requested-With" ] = "XMLHttpsRequest";
 					}
 	
 					// Set headers
@@ -10269,56 +10269,59 @@ $(document).ready(function() {
 	'  <div class="collapse navbar-collapse" id="navbarSupportedContent">'+
 	'    <ul class="navbar-nav mr-auto">'+
 	'<li class="nav-item dropdown" style="border-left: 1px solid #ccc">'+
-	'        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">'+
+	'        <a class="nav-link dropdown-toggle" href="https://digitalcollections.uncw.edu/" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">'+
 	'          Collections'+
 	'        </a>'+
 	'        <div class="dropdown-menu" style="width:max-content;min-width:72rem;" aria-labelledby="navbarDropdownMenuLink">'+
 	'          <div class="col-xs-12 col-md-6">'+
 	
 	'          <h2 style="text-align:left;margin-left: 24px;margin-top:15px;">Special Collections</h2>'+
-	'          <a class="dropdown-item" href="http://library.uncw.edu/chaplains/" title="">Centuries of Service: Military Chaplains<img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
-	'          <a class="dropdown-item" href="http://library.uncw.edu/web/collections/Schenck/schenckintro.html" title="">Diary of Nicholas W. Schenck <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
-	'          <a class="dropdown-item" href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/rotary" title="">Herman Blizzard Rotary Archive </a>'+
-	'          <a class="dropdown-item" href="http://library.uncw.edu/web/montford" title="">Montford Point Marines <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
-	'          <a class="dropdown-item" href="http://library.uncw.edu/museum" title="">Museum of World Cultures <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
-	'          <a class="dropdown-item" href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/oralhistory" title="">Oral Histories</a>'+ 
-	'          <a class="dropdown-item" href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/nclatino" title="">Somos NC: Voices from North Carolinas Latino Community </a>'+
-	'          <a class="dropdown-item" href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/marks" title="">Stuart Marks Collection<img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
-	'          <a class="dropdown-item" href="http://library.uncw.edu/capefearww2/" title="">World War II: Through the Eyes of the Cape Fear <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	'          <a class="dropdown-item" href="https://library.uncw.edu/chaplains/" title="">Centuries of Service: Military Chaplains<img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+	
+    '          <a class="dropdown-item" href="https://digitalcollections.uncw.edu/digital/collection/p17190coll13" title="">Civil Rights in Southeast North Carolina</a>'+
+	'          <a class="dropdown-item" href="https://library.uncw.edu/web/collections/Schenck/schenckintro.html" title="">Diary of Nicholas W. Schenck <img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	'          <a class="dropdown-item" href="https://digitalcollections.uncw.edu/cdm/landingpage/collection/rotary" title="">Herman Blizzard Rotary Archive </a>'+
+	'          <a class="dropdown-item" href="https://library.uncw.edu/web/montford" title="">Montford Point Marines <img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	'          <a class="dropdown-item" href="https://library.uncw.edu/museum" title="">Museum of World Cultures <img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	'          <a class="dropdown-item" href="https://digitalcollections.uncw.edu/cdm/landingpage/collection/oralhistory" title="">Oral Histories</a>'+ 
+	'          <a class="dropdown-item" href="https://digitalcollections.uncw.edu/cdm/landingpage/collection/nclatino" title="">Somos NC: Voices from North Carolinas Latino Community </a>'+
+	'          <a class="dropdown-item" href="https://digitalcollections.uncw.edu/cdm/landingpage/collection/marks" title="">Stuart Marks Collection<img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	'          <a class="dropdown-item" href="https://library.uncw.edu/capefearww2/" title="">World War II: Through the Eyes of the Cape Fear <img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
 	
 	'          <h2 style="text-align:left;margin-left: 24px;margin-top:15px;">UNCW Archives Collections</h2>'+
-	'          <a class="dropdown-item" href="http://library.uncw.edu/web/collections/archives/images.html" title="">Images of UNCW <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
-	'          <a class="dropdown-item" href="http://www.archive.org/search.php?query=%28%22university%20of%20north%20carolina%20wilmington%22%29%20AND%20mediatype%3Atexts&amp;sort=-date" title="">Internet Archive UNCW Collection <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+    '          <a class="dropdown-item" href="https://digitalcollections.uncw.edu/digital/collection/p17190coll6" title="">Fledgling</a>'+    
+	'          <a class="dropdown-item" href="https://www.archive.org/search.php?query=%28%22university%20of%20north%20carolina%20wilmington%22%29%20AND%20mediatype%3Atexts&amp;sort=-date" title="">Internet Archive UNCW Collection <img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+    '          <a class="dropdown-item" href="https://digitalcollections.uncw.edu/digital/collection/p17190coll1" title="">The Seahawk, UNCW Student Newspaper</a>'+ 
 	'          <a class="dropdown-item" href="/cdm/landingpage/collection/athletics" title="">UNCW Athletics Awards </a>'+
 	'          <a class="dropdown-item" href="/cdm/landingpage/collection/bot" title="">UNCW Board of Trustees </a>'+
-	'          <a class="dropdown-item" href="http://library.uncw.edu/web/collections/archives/landmarks.html" title="">UNCW Buildings and Landmarks: a History <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
 
 	'          <h2 style="text-align:left;margin-left: 24px;margin-top:15px;">Research and Scholarship</h2>'+
-	'          <a class="dropdown-item" href="http://dl.uncw.edu/" title="">Ilumina <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
-	'          <a class="dropdown-item" href="http://libres.uncg.edu/ir/uncw/" title="">SeahawkDocks <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
-	'          <a class="dropdown-item" href="https://dataverse.unc.edu/dataverse/UNCW" title="">UNCW Dataverse <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	'          <a class="dropdown-item" href="https://dl.uncw.edu/" title="">Ilumina <img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	'          <a class="dropdown-item" href="https://libres.uncg.edu/ir/uncw/" title="">SeahawkDocks <img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	'          <a class="dropdown-item" href="https://dataverse.unc.edu/dataverse/UNCW" title="">UNCW Dataverse <img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
 	'          <a class="dropdown-item" href="/cdm/landingpage/collection/honors" title="">UNCW Honors Project Papers </a>'+
 	'          </div>'+
 
 	'          <div class="col-xs-12 col-md-6">'+
 
 	'          <h2 style="text-align:left;margin-left: 24px;margin-top:15px;">Collections Around the Region</h2>'+
-	'          <a class="dropdown-item" href="http://library.uncw.edu/web/collections/1898Foundation/" title="">1898 Foundation <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
-	'          <a class="dropdown-item" href="http://library.uncw.edu/surfs" title="">Cape Fear Surfing Archive <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
-       
-	
+	'          <a class="dropdown-item" href="https://library.uncw.edu/web/collections/1898Foundation/" title="">1898 Foundation <img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+	'          <a class="dropdown-item" href="https://library.uncw.edu/surfs" title="">Cape Fear Surfing Archive <img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"></a>'+
+    '          <a class="dropdown-item" href="https://digitalcollections.uncw.edu/digital/collection/hutton" title="">Frank R. Hutton Jr. Collection, 1942-1945</a>'+
+    '          <a class="dropdown-item" href="https://digitalcollections.uncw.edu/digital/collection/eriksen" title="">John D. Eriksen Collection, 1918-1919</a>'+
+    '          <a class="dropdown-item" href="https://digitalcollections.uncw.edu/digital/collection/shelton" title="">Lucy Watts White Shelton Collection, 1921-1922</a>'+
+    '          <a class="dropdown-item" href="https://digitalcollections.uncw.edu/digital/collection/news_reporter" title="">The News Reporter</a>'+
 
 	'          <h2 style="text-align:left;margin-left: 24px;margin-top:15px;">Visual Art Community</h2>'+
-	'          <a class="dropdown-item" href="http://library.uncw.edu/regional_art/">The Visual Art Community of Wilmington &amp; Southeastern NC: A Digital Exhibit  <img class="ext" src="/ui/custom/default/collection/default/images/extlink.gif" alt="External Website" height="14" width="12"></a>'+
-	'          <a class="dropdown-item" href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/art-rl">Art in Randall Library</a>'+
-	'          <a class="dropdown-item" href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/public">Art in Public Spaces</a>'+
-	'          <a class="dropdown-item" href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/cam">Cameron Art Museum</a>'+
-	'		   <a class="dropdown-item" href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/camdoc">Cameron Art Museum Documents</a>'+
-	'          <a class="dropdown-item" href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/camnews">Cameron Art Museum Newsletters</a>'+
-	'          <a class="dropdown-item" href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/deptart">Dept. of Art and Art History Prints</a>'+
-	'          <a class="dropdown-item" href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/berk">Jack Berkman Collection</a>'+
-	' 		   <a class="dropdown-item" href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/mowc">Museum of World Cultures</a>'+
-	'          <a class="dropdown-item" href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/ons">Jacksonville-Onslow Council for the Arts</a>'+
+	'          <a class="dropdown-item" href="https://library.uncw.edu/regional_art/">The Visual Art Community of Wilmington &amp; Southeastern NC: A Digital Exhibit  <img class="ext" src="/ui/custom/default/collection/default/images/extlink.gif" alt="External Website" height="14" width="12"></a>'+
+	'          <a class="dropdown-item" href="https://digitalcollections.uncw.edu/cdm/landingpage/collection/art-rl">Art in Randall Library</a>'+
+	'          <a class="dropdown-item" href="https://digitalcollections.uncw.edu/cdm/landingpage/collection/public">Art in Public Spaces</a>'+
+	'          <a class="dropdown-item" href="https://digitalcollections.uncw.edu/cdm/landingpage/collection/cam">Cameron Art Museum</a>'+
+	'		   <a class="dropdown-item" href="https://digitalcollections.uncw.edu/cdm/landingpage/collection/camdoc">Cameron Art Museum Documents</a>'+
+	'          <a class="dropdown-item" href="https://digitalcollections.uncw.edu/cdm/landingpage/collection/camnews">Cameron Art Museum Newsletters</a>'+
+	'          <a class="dropdown-item" href="https://digitalcollections.uncw.edu/cdm/landingpage/collection/deptart">Dept. of Art and Art History Prints</a>'+
+	'          <a class="dropdown-item" href="https://digitalcollections.uncw.edu/cdm/landingpage/collection/berk">Jack Berkman Collection</a>'+
+	' 		   <a class="dropdown-item" href="https://digitalcollections.uncw.edu/cdm/landingpage/collection/mowc">Museum of World Cultures</a>'+
+	'          <a class="dropdown-item" href="https://digitalcollections.uncw.edu/cdm/landingpage/collection/ons">Jacksonville-Onslow Council for the Arts</a>'+
 	'		   <a class="dropdown-item" href="/cdm/landingpage/collection/orton" title="">Orton Plantation Art </a>'+
 	'          <a class="dropdown-item" href="/cdm/landingpage/collection/rb" title="">Dr. Ralph Brauer Collection</a>'+
 	'          <a class="dropdown-item" href="/cdm/landingpage/collection/pad" title="">Regional Art Documents</a>'+
@@ -10329,10 +10332,10 @@ $(document).ready(function() {
 	'        </div>'+
 	'      </li>'+
 	'      <li class="nav-item" style="border-left: 1px solid #ccc">'+
-	'        <a class="nav-link" href="http://library.uncw.edu">Randall Library</a>'+
+	'        <a class="nav-link" href="https://library.uncw.edu">Randall Library</a>'+
 	'      </li>'+
 	'      <li class="nav-item" style="border-left: 1px solid #ccc">'+
-	'        <a class="nav-link" href="http://library.uncw.edu/archives_special">University Archives and Special Collections</a>'+
+	'        <a class="nav-link" href="https://library.uncw.edu/archives_special">University Archives and Special Collections</a>'+
 	'      </li>'+
 	'    </ul>'+
 	'  </div>'+
@@ -10454,7 +10457,7 @@ $(document).ready(function() {
 
 	$(".Header-hamburgerHolder").hide();
 	
-    //$(".Header__valerieBar___1mPg2").html($(".Header__valerieBar___1mPg2").html() + '<div id="nav_top"><div id="nav_top_left"><ul class="nav" id="mega"><li class="nav_li"><a tabindex="1001" id="nav_top_left_first_link" href="/cdm/" class="selected" ><div class="nav_top_left_text_container">Digital Collections Home</div></a></li><li  class="nav_li"><a href="/cdm/#tab-collections"><div class="nav_top_left_text_container">Collections&nbsp;&nbsp;<div style="float:right"></div></div></a><div class="sub"> <div class="row"><ul><li><h2>Visual Art Community</h2></li><li><b><a href="http://library.uncw.edu/regional_art/">Visual Art Community of Wilmington & Southeastern NC: A Digital Exhibit <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></b></li><li><a href="/cdm/landingpage/collection/art-rl" title="" class="first">Art in Randall Library</a></li><li><a href="/cdm/landingpage/collection/public" title="">Art in Public Spaces</a></li><li><a href="/cdm/landingpage/collection/cam" title="">Cameron Art Museum</a></li><li><a href="/cdm/landingpage/collection/camdoc" title="">Cameron Art Museum Documents</a></li><li><a href="/cdm/landingpage/collection/camnews" title="">Cameron Art Museum Newsletters</a></li><li><a href="/cdm/landingpage/collection/deptart" title="">Dept. of Art and Art History Prints</a></li><li><a href="/cdm/landingpage/collection/berk" title="">Jack Berkman Collection</a></li><li><a href="/cdm/landingpage/collection/ons" title="">Jacksonville-Onslow Council for the Arts </a></li><li><a href="/cdm/landingpage/collection/orton" title="">Orton Plantation Art </a></li><li><a href="/cdm/landingpage/collection/rb" title="">Dr. Ralph Brauer Collection</a></li><li><a href="/cdm/landingpage/collection/pad" title="">Regional Art Documents</a></li><li><a href="/cdm/landingpage/collection/watson" title="">Watson College of Education Art Collection</a></li></ul><ul><li><h2>UNCW Archives Collections</h2></li><li><a href="http://library.uncw.edu/web/collections/archives/images.html" title="">Images of UNCW <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li><li><a href="http://www.archive.org/search.php?query=%28%22university%20of%20north%20carolina%20wilmington%22%29%20AND%20mediatype%3Atexts&sort=-date" title="">Internet Archive UNCW Collection <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li><li><a href="/cdm/landingpage/collection/athletics" title="">UNCW Athletics Awards </a></li><li><a href="/cdm/landingpage/collection/bot" title="">UNCW Board of Trustees </a></li><li><a href="http://library.uncw.edu/web/collections/archives/landmarks.html" title="">UNCW Buildings and Landmarks: a History <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li><li><a href="/cdm/landingpage/collection/honors" title="">UNCW Honors Project Papers </a></li></ul><ul><li><h2>Other</h2></li><li><a href="http://dl.uncw.edu/" title="">Ilumina <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li><li><a href="http://library.uncw.edu/surfs" title="">Cape Fear Surfing Archive <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li><li><a href="http://libres.uncg.edu/ir/uncw/" title="">SeahawkDocks <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li></ul><ul><li><h2>Special Collections</h2></li><li><a href="http://library.uncw.edu/chaplains/" title="">Centuries of Service: Military Chaplains<img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li><li><a href="http://library.uncw.edu/web/collections/Schenck/schenckintro.html" title="">Diary of Nicholas W. Schenck <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li><li><a href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/rotary" title="">Herman Blizzard Rotary Archive </a></li><li><a href="http://library.uncw.edu/web/montford" title="">Montford Point Marines <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li><li><a href="http://library.uncw.edu/museum" title="">Museum of World Cultures <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li><li><a href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/oralhistory" title="">Oral Histories</a></li><li><a href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/nclatino" title="">Somos NC: Voices from North Carolinas Latino Community </a></li><li><a href="http://digitalcollections.uncw.edu/cdm/landingpage/collection/marks" title="">Stuart Marks Collection<img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li><li><a href="http://library.uncw.edu/capefearww2/" title="">World War II: Through the Eyes of the Cape Fear <img src="http://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li></ul></div></div> </li><!--<li class="nav_li"><a tabindex="1002"  href="/cdm/search"><div class="nav_top_left_text_container">Browse All</div></a></li>--><li class="nav_li"><a tabindex="1003"  href="http://library.uncw.edu"><div class="nav_top_left_text_container">Randall Library</div></a></li><li class="nav_li"><a tabindex="1003"  href="http://library.uncw.edu/archives_special"><div class="nav_top_left_text_container">Archives & Special Collections</div></a></li></ul></div></div>');
+    //$(".Header__valerieBar___1mPg2").html($(".Header__valerieBar___1mPg2").html() + '<div id="nav_top"><div id="nav_top_left"><ul class="nav" id="mega"><li class="nav_li"><a tabindex="1001" id="nav_top_left_first_link" href="/cdm/" class="selected" ><div class="nav_top_left_text_container">Digital Collections Home</div></a></li><li  class="nav_li"><a href="/cdm/#tab-collections"><div class="nav_top_left_text_container">Collections&nbsp;&nbsp;<div style="float:right"></div></div></a><div class="sub"> <div class="row"><ul><li><h2>Visual Art Community</h2></li><li><b><a href="https://library.uncw.edu/regional_art/">Visual Art Community of Wilmington & Southeastern NC: A Digital Exhibit <img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></b></li><li><a href="/cdm/landingpage/collection/art-rl" title="" class="first">Art in Randall Library</a></li><li><a href="/cdm/landingpage/collection/public" title="">Art in Public Spaces</a></li><li><a href="/cdm/landingpage/collection/cam" title="">Cameron Art Museum</a></li><li><a href="/cdm/landingpage/collection/camdoc" title="">Cameron Art Museum Documents</a></li><li><a href="/cdm/landingpage/collection/camnews" title="">Cameron Art Museum Newsletters</a></li><li><a href="/cdm/landingpage/collection/deptart" title="">Dept. of Art and Art History Prints</a></li><li><a href="/cdm/landingpage/collection/berk" title="">Jack Berkman Collection</a></li><li><a href="/cdm/landingpage/collection/ons" title="">Jacksonville-Onslow Council for the Arts </a></li><li><a href="/cdm/landingpage/collection/orton" title="">Orton Plantation Art </a></li><li><a href="/cdm/landingpage/collection/rb" title="">Dr. Ralph Brauer Collection</a></li><li><a href="/cdm/landingpage/collection/pad" title="">Regional Art Documents</a></li><li><a href="/cdm/landingpage/collection/watson" title="">Watson College of Education Art Collection</a></li></ul><ul><li><h2>UNCW Archives Collections</h2></li><li><a href="https://library.uncw.edu/web/collections/archives/images.html" title="">Images of UNCW <img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li><li><a href="https://www.archive.org/search.php?query=%28%22university%20of%20north%20carolina%20wilmington%22%29%20AND%20mediatype%3Atexts&sort=-date" title="">Internet Archive UNCW Collection <img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li><li><a href="/cdm/landingpage/collection/athletics" title="">UNCW Athletics Awards </a></li><li><a href="/cdm/landingpage/collection/bot" title="">UNCW Board of Trustees </a></li><li><a href="https://library.uncw.edu/web/collections/archives/landmarks.html" title="">UNCW Buildings and Landmarks: a History <img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li><li><a href="/cdm/landingpage/collection/honors" title="">UNCW Honors Project Papers </a></li></ul><ul><li><h2>Other</h2></li><li><a href="https://dl.uncw.edu/" title="">Ilumina <img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li><li><a href="https://library.uncw.edu/surfs" title="">Cape Fear Surfing Archive <img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li><li><a href="https://libres.uncg.edu/ir/uncw/" title="">SeahawkDocks <img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li></ul><ul><li><h2>Special Collections</h2></li><li><a href="https://library.uncw.edu/chaplains/" title="">Centuries of Service: Military Chaplains<img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li><li><a href="https://library.uncw.edu/web/collections/Schenck/schenckintro.html" title="">Diary of Nicholas W. Schenck <img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li><li><a href="https://digitalcollections.uncw.edu/cdm/landingpage/collection/rotary" title="">Herman Blizzard Rotary Archive </a></li><li><a href="https://library.uncw.edu/web/montford" title="">Montford Point Marines <img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li><li><a href="https://library.uncw.edu/museum" title="">Museum of World Cultures <img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li><li><a href="https://digitalcollections.uncw.edu/cdm/landingpage/collection/oralhistory" title="">Oral Histories</a></li><li><a href="https://digitalcollections.uncw.edu/cdm/landingpage/collection/nclatino" title="">Somos NC: Voices from North Carolinas Latino Community </a></li><li><a href="https://digitalcollections.uncw.edu/cdm/landingpage/collection/marks" title="">Stuart Marks Collection<img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li><li><a href="https://library.uncw.edu/capefearww2/" title="">World War II: Through the Eyes of the Cape Fear <img src="https://digitalcollections.uncw.edu/ui/custom/default/collection/default/images/extlink.gif" title="Leaves this website" alt="external website"/></a></li></ul></div></div> </li><!--<li class="nav_li"><a tabindex="1002"  href="/cdm/search"><div class="nav_top_left_text_container">Browse All</div></a></li>--><li class="nav_li"><a tabindex="1003"  href="https://library.uncw.edu"><div class="nav_top_left_text_container">Randall Library</div></a></li><li class="nav_li"><a tabindex="1003"  href="https://library.uncw.edu/archives_special"><div class="nav_top_left_text_container">Archives & Special Collections</div></a></li></ul></div></div>');
 	//$(".Header__hamburgerHolder___2eaOj").html('');
 
 	//Mega menus
@@ -10520,4 +10523,4 @@ $(document).ready(function() {
 
 //Removes original CONTENTDM Footer and replaces it with updated DePaul footer
 
-//$("div#nav_footer_left").empty().html('<div id="nav_footer_left"><ul class="nav"><li class="nav_footer_li"><a href="/cdm/">Home</a></li><li class="nav_footer_left_divider">|</li><li class="nav_footer_li"><a href="/cdm/#tab-about">About</a></li><li class="nav_footer_left_divider">|</li><li class="nav_footer_li"><a href="mailto:LibraryWeb@depaul.edu">Contact Us</a></li><li class="nav_footer_left_divider">|</li><li class="nav_footer_li"><a href="http://library.depaul.edu">DPU Libraries</a></li></ul><p class="dpuFooter"><span class="class="nav_footer_li">&copy;2011 DePaul University Libraries</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="nav_footer_left_divider">|</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="class="nav_footer_li"><a href="http://www.depaul.edu/disclaimer.asp" title="Disclaimer" target="_self">Disclaimer</a></span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="nav_footer_left_divider">|</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="class="nav_footer_li">Administrative Offices, 2350 N Kenmore Avenue Chicago, IL 60614</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="nav_footer_left_divider">|</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="class="nav_footer_li">(773) 325-7862</span>&nbsp;&nbsp;&nbsp;&nbsp;</p></div>');
+//$("div#nav_footer_left").empty().html('<div id="nav_footer_left"><ul class="nav"><li class="nav_footer_li"><a href="/cdm/">Home</a></li><li class="nav_footer_left_divider">|</li><li class="nav_footer_li"><a href="/cdm/#tab-about">About</a></li><li class="nav_footer_left_divider">|</li><li class="nav_footer_li"><a href="mailto:LibraryWeb@depaul.edu">Contact Us</a></li><li class="nav_footer_left_divider">|</li><li class="nav_footer_li"><a href="https://library.depaul.edu">DPU Libraries</a></li></ul><p class="dpuFooter"><span class="class="nav_footer_li">&copy;2011 DePaul University Libraries</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="nav_footer_left_divider">|</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="class="nav_footer_li"><a href="https://www.depaul.edu/disclaimer.asp" title="Disclaimer" target="_self">Disclaimer</a></span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="nav_footer_left_divider">|</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="class="nav_footer_li">Administrative Offices, 2350 N Kenmore Avenue Chicago, IL 60614</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="nav_footer_left_divider">|</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="class="nav_footer_li">(773) 325-7862</span>&nbsp;&nbsp;&nbsp;&nbsp;</p></div>');
