@@ -4,6 +4,10 @@
 
 /* From home_html.html */
 
+body {
+  background: white;
+}
+
 @media screen and (max-width: 767px) {
   .Header-header {
     height: 120px !important;
