@@ -1,3 +1,11 @@
+NOTE:
+
+Contentdm requires these files to be renamed on each upload:  custom.css, custom.js, custom_home.html.
+
+If one uploads any file to contentdm without first renaming it, there is a chance the contentdm will ignore the file.  They decline to fix this bug.
+
+
+
 These are copies of custom files the contentdm admin may be uploading to contentdm.
 
 The most reliable source for these files is to load https://digitalcollections.uncw.edu/ in your browser & save the files via the browser's developer tools.
