@@ -2,7 +2,7 @@ NOTE:
 
 Contentdm requires these files to be renamed on each upload:  custom.css, custom.js, custom_home.html.
 
-If one uploads any file to contentdm without first renaming it, there is a chance the contentdm will ignore the file.  They decline to fix this bug.
+If one uploads any file to contentdm without first renaming it, there is a chance the contentdm will ignore the file.
 
 
 
@@ -14,4 +14,4 @@ But maybe this repo gives some version control history for uncw's custom content
 
 Another copy of these files (maintained by the librarians) is at libstore/library/digital_collections/contentdm_homepage_backup.
 
-The version control process is vague for this project, so it's likely that the most useful version of these files is scraping them from the digitalcollections.uncw.edu page.
+The version control process is ambiguous for these files, so it's likely that the most useful source is scraping them from the digitalcollections.uncw.edu page.
